@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de login</title>
+</head>
+
+<body>
+    <main class="Tela-login">
+        <aside class="apresentacao">
+            <h2>NORYAU</h2>
+
+            <h1>Bem-vindo <span>de volta!</span></h1>
+
+            <p>Faça login para continuar acessando sua conta e gerenciar seus projetos.</p>
+            
+            <section class="area-login">
+
+                <form>
+                    <h2>Entrar</h2>
+
+                    <p>Use suas credências para acessar sua conta</p>
+
+                    <label for="email">E-mail</label>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Digite seu E-mail"
+                            required
+                        >
+                
+                    <label for="senha">Senha</label>
+                        <input
+                            type="password"
+                            id="senha"
+                            name="senha"
+                            placeholder="Digite sua senha"
+                            required
+                            >
+                    
+                    <div class="opcoes">
+
+                        <label class="lembrar">
+
+                            <input type="checkbox" name="lembrar">
+                            lembrar de mim
+
+                        </label>
+
+                    </div>
+
+                    <a href="#">Esqueceu a senha?</a>
+
+                <button type="submit">Entrar</button>
+
+                <p class="cadastro">
+                    Não tem uma conta?
+                    <a href="cadastro">Cadastre-se</a>
+                </p>
+               
+            </form>
+            </section>
+    </main>
+</body>
+</html>
